@@ -1,7 +1,8 @@
+/* pages/_app.js */
 import '../styles/globals.css'
 import Link from 'next/link'
 
-function Marketplace({ Component, pageProps }) {
+function MyApp({ Component, pageProps }) {
   return (
     <div>
       <nav className="border-b p-6">
@@ -34,4 +35,4 @@ function Marketplace({ Component, pageProps }) {
   )
 }
 
-export default Marketplace
+export default MyApp
